@@ -79,6 +79,13 @@ int main(int argc, char *argv[])
                 print_help(RUS_HELP);
             return 0;
         }
+        
+        /* проверка на число операндов */
+        if (argc > 100)
+        {       
+            printf("Too much operands and operators\n");
+            return -2;
+        }    
               
 	/* вывод аргументов */
 	printf("The result of:\n");
