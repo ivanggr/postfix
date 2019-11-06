@@ -62,7 +62,6 @@ inline static int print_help(int l)
 }
 
 
-
 int main(int argc, char *argv[])
 {
 	int i, j, m, k, operand_exist;
