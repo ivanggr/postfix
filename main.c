@@ -91,9 +91,9 @@ int main(int argc, char *argv[])
 	printf("The result of:\n");
 	for (i = 1; i < argc; i++)
 	{
-		printf("%s ", argv[i]);
+            printf("%s ", argv[i]);
 	}
-	printf("\n");
+	putchar("\n");
 
 	/* чтение операндов */
 	m = 0;
